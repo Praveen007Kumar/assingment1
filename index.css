@@ -1,0 +1,47 @@
+body{
+    background: #f7f9f9;
+    
+}
+#nav{
+    margin-top: 2vh;
+    margin-left: 50vh;
+    
+}
+#nav ul{
+    list-style: none;
+}
+
+
+
+#nav ul li{
+    margin: 20px;
+    background-color: thistle;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 1.5em;
+    transition: 0.5s ease;
+}
+
+
+
+#nav ul li ul li{
+    margin: 20px;
+    background-color: thistle;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 1.5em;
+    transition: 0.5s ease;
+}
+#nav ul li:hover{
+    background-color: rgb(138, 217, 219);
+}
